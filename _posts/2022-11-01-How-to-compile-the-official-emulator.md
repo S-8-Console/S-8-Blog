@@ -16,7 +16,7 @@ Well there are multiple reasons to compile the official S-8 emulator yourself I'
 
 * You want to mod the existing emulator
 * There is no official download for your operating system
-* You want to challenge yourself 
+* You want to challenge yourself
 
 There are much more reasons for you to wanting to compile the official emulator, let's just get into the action!
 
@@ -81,19 +81,19 @@ brew install sdl2
 
 #### Linux
 
-Depending on your package management tool, run the following command in your terminal to install SDL2 on Linux: 
+Depending on your package management tool, run the following command in your terminal to install SDL2 on Linux:
 
-apt: 
+apt:
 ```bash
 sudo apt-get install libsdl2-dev
 ```
 
-dnf: 
+dnf:
 ```bash
 sudo dnf install SDL2-devel
 ```
 
-yum: 
+yum:
 ```bash
 yum install SDL2-devel
 ```
@@ -111,7 +111,7 @@ To your library folder of choice, if you installed rust with rustup that is:
 
 ```
 C:\Users\{Your Username}\.rustup\toolchains\{current toolchain}\lib\rustlib\{current toolchain}\lib
-``` 
+```
 
 * Copy SDL2.dll from ```SDL2-devel-2.0.x-VC\SDL2-2.0.x\lib\x64\```
 
@@ -129,7 +129,7 @@ We can easily do this by running these commands:
 For s-8-core
 ```bash
 git clone https://github.com/s-8-console/s-8-core
-``` 
+```
 
 For s-8-desktop
 ```bash
@@ -155,7 +155,7 @@ cd s-8-desktop
 
 Execute the project with the example roms!
 ```bash
-cargo run roms/moving_organge_kirby/GAME_ROM roms/moving_organge_kirby/SPRITE_ROM
+cargo run roms/pineapple-pizza/GAME_ROM roms/pineapple-pizza/SPRITE_ROM roms/FONT_SET
 ```
 
 If you get an error saying it can't find a dependency called s-8-core, then you'll have to edit the cargo.toml file and change the path from the s_8_core dependency to the corresponding folder with the s-8-core repository, as shown here:
@@ -183,7 +183,7 @@ cd s-8-desktop
 Execute the cargo project with the example roms:
 
 ```bash
-cargo run roms/moving_organge_kirby/GAME_ROM roms/moving_organge_kirby/SPRITE_ROM
+cargo run roms/pineapple-pizza/GAME_ROM roms/pineapple-pizza/SPRITE_ROM roms/FONT_SET
 ```
 
 And BAM! That's it, you have successfully compiled the official S-8-Emulator yourself! Amazing!
