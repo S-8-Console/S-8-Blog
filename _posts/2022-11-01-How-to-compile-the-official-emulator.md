@@ -186,6 +186,16 @@ Execute the cargo project with the example roms:
 cargo run roms/pineapple-pizza/GAME_ROM roms/pineapple-pizza/SPRITE_ROM roms/FONT_SET
 ```
 
+If you get an error saying it can't find a dependency called s-8-core, then you'll have to edit the cargo.toml file and change the path from the s_8_core dependency to the corresponding folder with the s-8-core repository, as shown here:
+
+```toml
+s_8_core = {path = "../s-8-core" }
+                    ____________
+                         |
+                         |
+           This path-----
+```
+
 And BAM! That's it, you have successfully compiled the official S-8-Emulator yourself! Amazing!
 
 ## Afterword
