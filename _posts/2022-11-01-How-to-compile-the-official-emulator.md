@@ -1,8 +1,8 @@
 ---
 title: How to compile the official S-8 emulator
 date: 2022-11-01 17:54
-categories: [other, compiling]
-tags: [official-emulator, compiling]
+categories: [building]
+tags: [official-emulator, building]
 ---
 
 ## Foreword
@@ -101,7 +101,7 @@ yum install SDL2-devel
 
 #### Windows
 
-* Download MSVC development libraries from http://www.libsdl.org/ (SDL2-devel-2.0.x-VC.zip).
+* Download MSVC development libraries from https://github.com/libsdl-org/SDL/releases/ (SDL2-devel-2.0.x-VC.zip).
 
 * Unpack SDL2-devel-2.0.x-VC.zip to a folder of your choosing (You can delete it afterwards).
 
@@ -117,9 +117,9 @@ C:\Users\{Your Username}\.rustup\toolchains\{current toolchain}\lib\rustlib\{cur
 
 to anywhere you like, you will need it later.
 
-## Finally compiling!
+## Finally building!
 
-Finally! Now that you got all of the required dependencies on your system. We can finally start compiling the program!
+Finally! Now that you got all of the required dependencies on your system. We can finally start building the program!
 
 First we will need to clone the s-8-core and the s-8-desktop repository from github.
 
