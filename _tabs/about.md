@@ -3,3 +3,12 @@
 icon: fas fa-info-circle
 order: 4
 ---
+
+# About S-8 blog
+
+S-8 blog is the blogging website of the S-8-Console project. It aims to post updates and tutorials for the S-8 project.
+
+# About S-8-Console
+
+S-8-Console is a fantasy console which aims to be an easily emulatable console. It will provide enough features and it will eventually feature it's own programming langauge and much more.
+
