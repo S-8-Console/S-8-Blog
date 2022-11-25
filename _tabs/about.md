@@ -12,3 +12,6 @@ S-8 blog is the blogging website of the S-8-Console project. It aims to post upd
 
 S-8-Console is a fantasy console which aims to be an easily emulatable console. It will provide enough features and it will eventually feature it's own programming langauge and much more.
 
+# If you want to contribute to the S-8 project 
+
+If you want to contribute to the S-8 project, you can fork my repository you want to contribute to and make your changes. Then you can open a pull request.
